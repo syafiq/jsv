@@ -1,0 +1,1 @@
+.1),!1),new mxConnectionConstraint(new mxPoint(.7,.9),!1)];Ia.prototype.constraints=[new mxConnectionConstraint(new mxPoint(0,.5),!1),new mxConnectionConstraint(new mxPoint(1,.5),!1)];va.prototype.constraints=[new mxConnectionConstraint(new mxPoint(0,.5),!1),new mxConnectionConstraint(new mxPoint(1,.5),!1)]})();function Actions(a){this.editorUi=a;this.actions={};this.init()}

@@ -1,0 +1,1 @@
+Graph.prototype.setTableValues=function(b,e,k){for(var l=this.model.getChildCells(b,!0),B=0;B<l.length;B++)if(null!=k&&(l[B].value=k[B]),null!=e)for(var q=this.model.getChildCells(l[B],!0),D=0;D<q.length;D++)null!=e[B][D]&&(q[D].value=e[B][D]);return b};

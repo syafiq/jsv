@@ -1,0 +1,1 @@
+this.synchronizeFile(f,c)}))};DrawioFile.prototype.getErrorMessage=function(b){var e=null!=b?null!=b.error?b.error.message:b.message:null;null==e&&null!=b&&b.code==App.ERROR_TIMEOUT&&(e=mxResources.get("timeout"));return e};DrawioFile.prototype.isOverdue=function(){return null!=this.ageStart&&Date.now()-this.ageStart.getTime()>=this.ui.warnInterval};

@@ -1,0 +1,1 @@
+mxEvent.addListener(q,"change",M);mxEvent.addListener(N,"change",function(G){H="custom"==N.value;M(G,!0)});M();return{set:function(G){k=G;B(null,null,!0)},get:function(){return P},widthInput:R,heightInput:d}};

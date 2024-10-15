@@ -1,0 +1,1 @@
+LocalFile.prototype.getLatestVersion=function(b,f){null==this.fileHandle?null!=f&&f({message:mxResources.get("cannotOpenFile")}):this.ui.loadFileSystemEntry(this.fileHandle,b,f)};

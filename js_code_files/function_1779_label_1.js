@@ -1,0 +1,2 @@
+a=rtcp-rsize`,l+=on(f),l+=ln(u,m,g,c);break}}}return l+=Bo(),l+=`
+`,l}}class xy{static generateOffer(e){const{fingerprints:t,ufrag:s,pwd:i,audio:n,video:a}=e;n.type="audio",a.type="video";const r=[n,a];if(!r.length)return`v=0

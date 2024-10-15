@@ -1,0 +1,1 @@
+EditorUi.prototype.getPageIndex=function(b){var g=null;if(null!=this.pages&&null!=b)for(var k=0;k<this.pages.length;k++)if(this.pages[k]==b){g=k;break}return g};EditorUi.prototype.getPageById=function(b,g){g=null!=g?g:this.pages;if(null!=g)for(var k=0;k<g.length;k++)if(g[k].getId()==b)return g[k];return null};

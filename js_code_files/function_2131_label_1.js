@@ -1,0 +1,1 @@
+height:Math.round(C.height),border:100}))));p=new EmbedDialog(this,this.getLinkForPage(b,k,p));this.showDialog(p.container,450,240,!0,!0);p.init()}))};(function(){var b=EditorUi.prototype.refresh;EditorUi.prototype.refresh=function(){b.apply(this,arguments);this.updateTabContainer()}})();(function(){mxCodecRegistry.getCodec(ChangePageSetup).exclude.push("page")})();

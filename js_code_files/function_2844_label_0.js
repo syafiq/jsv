@@ -1,0 +1,1 @@
+GraphViewer.getElementsByClassName=function(b){if(document.getElementsByClassName){var e=document.getElementsByClassName(b);b=[];for(var k=0;k<e.length;k++)b.push(e[k]);return b}var l=document.getElementsByTagName("*");e=[];for(k=0;k<l.length;k++){var B=l[k].className;null!=B&&0<B.length&&(B=B.split(" "),0<=mxUtils.indexOf(B,b)&&e.push(l[k]))}return e};

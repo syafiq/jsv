@@ -1,0 +1,1 @@
+OneDriveFile.prototype.doSave=function(b,e,f,c,l,m){var t=this.meta.name;this.meta.name=b;DrawioFile.prototype.save.apply(this,[null,mxUtils.bind(this,function(){this.meta.name=t;this.saveFile(b,e,f,c,l,m)}),c,l,m])};

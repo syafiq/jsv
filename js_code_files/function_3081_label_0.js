@@ -1,0 +1,1 @@
+g.isContainer(b))&&this.addMenuItem(a,"editConnectionPoints",e,f)}};Menus.prototype.addPopupMenuSelectionItems=function(a,b,f){this.editorUi.editor.graph.isSelectionEmpty()&&this.addMenuItems(a,["-","selectVertices","selectEdges","selectAll"],null,f)};

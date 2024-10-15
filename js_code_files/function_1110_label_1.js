@@ -1,0 +1,1 @@
+LocalFile.prototype.isRenamable=function(){return!0};LocalFile.prototype.save=function(b,g,k){this.saveAs(this.title,g,k)};LocalFile.prototype.saveAs=function(b,g,k){this.saveFile(b,!1,g,k)};LocalFile.prototype.saveAs=function(b,g,k){this.saveFile(b,!1,g,k)};LocalFile.prototype.getDescriptor=function(){return this.desc};LocalFile.prototype.setDescriptor=function(b){this.desc=b};

@@ -1,0 +1,2 @@
+DrawioFile.prototype.updateFile=function(b,e,k,l){null!=k&&k()||(EditorUi.debug("DrawioFile.updateFile",[this],"invalidChecksum",this.invalidChecksum),this.ui.getCurrentFile()!=this||this.invalidChecksum?null!=e&&e():this.getLatestVersion(mxUtils.bind(this,function(C){try{null!=k&&k()||(EditorUi.debug("DrawioFile.updateFile",[this],"invalidChecksum",this.invalidChecksum,"latestFile",[C]),this.ui.getCurrentFile()!=this||this.invalidChecksum?null!=e&&e():null!=C?this.mergeFile(C,b,e,l):this.reloadFile(b,
+e))}catch(p){null!=e&&e(p)}}),e))};

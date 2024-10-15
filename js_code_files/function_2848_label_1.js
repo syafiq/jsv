@@ -1,0 +1,1 @@
+this.footerHeight+l+"px";this.diagramContainer.style.left=M+D.x+"px";this.diagramContainer.style.top=e+D.y+"px";this.diagramContainer.style.right=k+"px";this.diagramContainer.style.bottom=this.footerHeight+l+C+"px";b&&this.editor.graph.sizeDidChange()};EditorUi.prototype.createTabContainer=function(){return null};

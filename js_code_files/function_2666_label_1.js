@@ -1,0 +1,1 @@
+M.appendChild(R);p.appendChild(M);C.appendChild(p);l.appendChild(C);this.container=l};PrintDialog.printPreview=function(b){try{if(null!=b.wnd){var e=function(){b.wnd.focus();b.wnd.print();b.wnd.close()};mxClient.IS_GC?window.setTimeout(e,500):e()}}catch(k){}};

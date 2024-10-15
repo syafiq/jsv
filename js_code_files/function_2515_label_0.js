@@ -1,0 +1,1 @@
+function createImage(blob){var pastedImage=new Image();pastedImage.src=blob;pastedImage.onload=function(){var sourceSplit=blob.split('base64,');inputElement.value=sourceSplit[1]};var zone=document.getElementById('screenshot-zone');zone.innerHTML='';zone.className='screenshot-pasted';zone.appendChild(pastedImage);initialize()}

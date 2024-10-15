@@ -1,0 +1,1 @@
+Menus.prototype.addPopupMenuEditItems=function(a,b,f){this.editorUi.editor.graph.isSelectionEmpty()?this.addMenuItems(a,["pasteHere"],null,f):(this.isShowCellEditItems()&&this.addMenuItems(a,["delete","-"],null,f),this.addMenuItems(a,["cut","copy","duplicate","-","lockUnlock"],null,f))};Menus.prototype.isShowStyleItems=function(){return!0};

@@ -1,0 +1,1 @@
+function onPaste(e){if(e.clipboardData&&e.clipboardData.items){var items=e.clipboardData.items;if(items){for(var i=0;i<items.length;i++){if(items[i].type.indexOf("image")!==-1){var blob=items[i].getAsFile();var reader=new FileReader();reader.onload=onFileLoaded;reader.readAsDataURL(blob)}}}}}

@@ -1,0 +1,1 @@
+EditorUi.prototype.createTabForPage=function(b,e,k,l){k=this.createTab(k);var B=b.getName()||mxResources.get("untitled"),q=b.getId();k.setAttribute("title",B+(null!=q?" ("+q+")":"")+" ["+l+"]");mxUtils.write(k,B);k.style.maxWidth=e+"px";k.style.width=e+"px";this.addTabListeners(b,k);42<e&&(k.style.textOverflow="ellipsis");return k};

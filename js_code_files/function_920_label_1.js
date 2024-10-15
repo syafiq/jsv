@@ -1,0 +1,2 @@
+Graph.prototype.selectTableRange=function(a,b){var f=!1;if(this.isTableCell(a)&&this.isTableCell(b)){var e=this.model.getParent(a),g=this.model.getParent(e),d=this.model.getParent(b);if(g==this.model.getParent(d)){a=e.getIndex(a);e=g.getIndex(e);var h=d.getIndex(b),n=g.getIndex(d);d=Math.max(e,n);b=Math.min(a,h);a=Math.max(a,h);h=[];for(e=Math.min(e,n);e<=d;e++){n=this.model.getChildAt(g,e);for(var v=b;v<=a;v++)h.push(this.model.getChildAt(n,v))}0<h.length&&(1<h.length||1<this.getSelectionCount()||
+!this.isCellSelected(h[0]))&&(this.setSelectionCells(h),f=!0)}}return f};

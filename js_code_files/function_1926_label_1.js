@@ -1,0 +1,1 @@
+Menus.prototype.styleChange=function(a,b,f,e,g,d,h,n,v){var m=this.createStyleChangeFunction(f,e);a=a.addItem(b,null,mxUtils.bind(this,function(){var r=this.editorUi.editor.graph;null!=h&&r.cellEditor.isContentEditing()?h():m(n)}),d,g);v&&this.showIconOnly(a);return a};

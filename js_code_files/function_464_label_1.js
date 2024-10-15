@@ -1,0 +1,1 @@
+this.editor.graph.cellEditor.stopEditing=function(D,M){p.apply(this,arguments);l()};l()};

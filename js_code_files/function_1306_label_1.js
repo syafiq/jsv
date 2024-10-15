@@ -1,0 +1,1 @@
+Sidebar.prototype.createEdgeTemplateEntry=function(a,b,f,e,g,d,h,n,v){h=null!=h&&0<h.length?h:g.toLowerCase();return this.addEntry(h,mxUtils.bind(this,function(){return this.createEdgeTemplate(a,b,f,e,g,d,n,v)}))};

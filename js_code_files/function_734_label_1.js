@@ -1,0 +1,1 @@
+App.prototype.stopSanityCheck=function(){null!=this.sanityCheckThread&&(window.clearTimeout(this.sanityCheckThread),this.sanityCheckThread=null)};

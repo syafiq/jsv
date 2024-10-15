@@ -1,0 +1,1 @@
+                getEditor: function() { return new Ext.form.TextField({ listeners: {'change': pimcore.helpers.htmlEncodeTextField } }); }

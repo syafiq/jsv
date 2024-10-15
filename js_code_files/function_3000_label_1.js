@@ -1,0 +1,1 @@
+D.className="geBtn";f.appendChild(D);null!=h&&(e=mxUtils.button(h,function(){v&&a.hideDialog();null!=n&&n()}),e.className="geBtn gePrimaryBtn",f.appendChild(e));this.init=function(){D.focus()};x.appendChild(f);this.container=x},PrintDialog=function(a,b){this.create(a,b)};

@@ -1,0 +1,1 @@
+EditorUi.prototype.createCellLookup=function(b,f,k){k=null!=k?k:{};k[b.getId()]={cell:b,prev:f};var d=b.getChildCount();f=null;for(var u=0;u<d;u++){var v=b.getChildAt(u);this.createCellLookup(v,f,k);f=v}return k};

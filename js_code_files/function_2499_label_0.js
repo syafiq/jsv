@@ -1,0 +1,1 @@
+0))};DrawioFile.prototype.addConflictStatus=function(b,e){this.invalidChecksum&&null==b&&(b=mxResources.get("checksum"));this.setConflictStatus(mxUtils.htmlEntities(mxResources.get("fileChangedSync"))+(null!=b&&""!=b?" ("+mxUtils.htmlEntities(b)+")":""),e);this.ui.spinner.stop();this.clearAutosave()};

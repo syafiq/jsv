@@ -1,0 +1,1 @@
+TableLayout.prototype.getRowLayout=function(b,e){var k=this.graph.model.getChildCells(b,!0),l=this.graph.getActualStartSize(b,!0);b=this.getSize(k,!0);e=e-l.x-l.width;var B=[];l=l.x;for(var q=0;q<k.length;q++){var D=this.graph.getCellGeometry(k[q]);null!=D&&(l+=(null!=D.alternateBounds?D.alternateBounds.width:D.width)*e/b,B.push(Math.round(l)))}return B};

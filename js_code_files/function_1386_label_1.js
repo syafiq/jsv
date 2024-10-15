@@ -1,0 +1,1 @@
+EditorUi.prototype.createSelectionState=function(){for(var b=this.editor.graph,e=b.getSelectionCells(),k=this.initSelectionState(),l=!0,C=0;C<e.length;C++){var p=b.getCurrentCellStyle(e[C]);"0"!=mxUtils.getValue(p,mxConstants.STYLE_EDITABLE,"1")&&(this.updateSelectionStateForCell(k,e[C],e,l),l=!1)}this.updateSelectionStateForTableCells(k);return k};

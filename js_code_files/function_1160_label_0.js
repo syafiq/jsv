@@ -1,0 +1,2 @@
+function initialize(){destroy();if(!window.Clipboard){pasteCatcher=document.createElement('template');pasteCatcher.id='screenshot-pastezone';pasteCatcher.contentEditable=!0;pasteCatcher.style.opacity=0;pasteCatcher.style.position='fixed';pasteCatcher.style.top=0;pasteCatcher.style.right=0;pasteCatcher.style.width=0;document.body.insertBefore(pasteCatcher,document.body.firstChild);pasteCatcher.focus();document.addEventListener('click',setFocus);document.getElementById('screenshot-zone').addEventListener('click',setFocus)}
+window.addEventListener('paste',onPaste,!1)}

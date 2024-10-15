@@ -1,0 +1,3 @@
+    get() {
+      return getPrivateAttributes(schema);
+    },

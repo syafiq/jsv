@@ -1,0 +1,1 @@
+"/clear.gif";Dialog.prototype.bgOpacity=80;Dialog.prototype.getPosition=function(a,b){return new mxPoint(a,b)};

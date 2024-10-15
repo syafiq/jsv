@@ -1,0 +1,1 @@
+EditorUi.prototype.getViewStateProperty=function(b,g){b=b[g];"backgroundImage"==g&&null!=b&&null!=b.originalSrc?delete b.src:"extFonts"==g&&null==b&&(b=[]);return b};

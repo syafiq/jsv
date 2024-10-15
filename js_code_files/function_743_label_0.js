@@ -1,0 +1,1 @@
+if(d==k.getChildAt(l,q+S)&&null!=f&&1==mxUtils.getValue(f.style,"colspan",1)&&1==mxUtils.getValue(f.style,"rowspan",1))S++;else break}K==F*S-1&&(b.mergeCell=e[0],b.colspan=S,b.rowspan=F)}}};EditorUi.prototype.windowResized=function(){window.setTimeout(mxUtils.bind(this,function(){null!=this.editor.graph&&this.refresh()}),0)};

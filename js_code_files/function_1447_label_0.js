@@ -1,0 +1,1 @@
+J.isStateIgnored(J.currentFocus,!0)&&(J.currentFocus=null,J.constraints=null,J.destroyIcons());J.destroyFocusHighlight()}));Graph.touchStyle&&this.initTouch();var sa=this.updateMouseEvent;this.updateMouseEvent=function(J){J=sa.apply(this,arguments);null!=J.state&&this.isCellLocked(J.getCell())&&(J.state=null);return J}}this.currentTranslate=new mxPoint(0,0)};

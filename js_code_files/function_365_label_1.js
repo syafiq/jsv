@@ -1,0 +1,1 @@
+f=t.getCell(D.id),null!=f&&(t.setTerminal(f,t.getCell(D.source),!0),t.setTerminal(f,t.getCell(D.target),!1));t.updateEdgeParent=B;if(d&&0<H.length)for(e=0;e<H.length;e++)t.contains(H[e])&&t.updateEdgeParent(H[e])}finally{t.endUpdate()}};

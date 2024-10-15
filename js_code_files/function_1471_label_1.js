@@ -1,0 +1,1 @@
+StorageFile.prototype.isRenamable=function(){return!0};StorageFile.prototype.save=function(b,g,k){this.saveAs(this.getTitle(),g,k)};StorageFile.prototype.saveAs=function(b,g,k){DrawioFile.prototype.save.apply(this,arguments);this.saveFile(b,!1,g,k)};

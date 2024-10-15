@@ -1,0 +1,1 @@
+function ChangePage(b,e,k,l,C){SelectPage.call(this,b,k);this.relatedPage=e;this.index=l;this.previousIndex=null;this.noSelect=C}mxUtils.extend(ChangePage,SelectPage);

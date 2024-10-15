@@ -1,0 +1,1 @@
+GraphViewer.createViewerForElement=function(b,e){var k=b.getAttribute("data-mxgraph");if(null!=k){var l=JSON.parse(k),C=function(p){p=mxUtils.parseXml(p);p=new GraphViewer(b,p.documentElement,l);null!=e&&e(p)};null!=l.url?GraphViewer.getUrl(l.url,function(p){C(p)}):C(l.xml)}};

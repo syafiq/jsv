@@ -1,0 +1,1 @@
+EditorUi.prototype.executeLayout=function(b,e,k){var l=this.editor.graph;l.getModel().beginUpdate();try{b()}catch(B){throw B;}finally{this.allowAnimation&&e&&l.isEnabled()?(b=new mxMorphing(l),b.addListener(mxEvent.DONE,mxUtils.bind(this,function(){l.getModel().endUpdate();null!=k&&k()})),b.startAnimation()):(l.getModel().endUpdate(),null!=k&&k())}};

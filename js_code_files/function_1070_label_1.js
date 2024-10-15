@@ -1,0 +1,1 @@
+EditorUi.prototype.showDataDialog=function(a){null!=a&&(a=new EditDataDialog(this,a),this.showDialog(a.container,480,420,!0,!1,null,!1),a.init())};

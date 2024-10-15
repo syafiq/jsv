@@ -1,0 +1,1 @@
+Graph.prototype.getNodesForCells=function(b){for(var e=[],k=0;k<b.length;k++){var l=this.view.getState(b[k]);if(null!=l){for(var C=this.cellRenderer.getShapesForState(l),p=0;p<C.length;p++)null!=C[p]&&null!=C[p].node&&e.push(C[p].node);null!=l.control&&null!=l.control.node&&e.push(l.control.node)}}return e};
